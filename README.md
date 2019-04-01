@@ -9,17 +9,16 @@ https://yadi.sk/i/8Tma7FsMaUicag
 
 
 
-
 # STEP 1 #############################
 CREATE SCHEMA testdb DEFAULT CHARACTER SET utf8 COLLATE utf8_bin ;
 
 
-# STEP 2 #############################
-# RUN JAVA APP MerchantReportingAPIDemo
+# STEP 2 # RUN : JAVA APP MerchantReportingAPIDemo
 
 
 
-# STEP 3 #############################
+# STEP 3 # RUN : MYSQL CODES
+
 INSERT INTO testdb.roles(name) VALUES('ROLE_USER');
 INSERT INTO testdb.roles(name) VALUES('ROLE_PM');
 INSERT INTO testdb.roles(name) VALUES('ROLE_ADMIN');
