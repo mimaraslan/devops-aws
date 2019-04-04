@@ -4,9 +4,6 @@ Transaction Merchant Reporting API Demo
 # Codes
 https://github.com/mimaraslan/MerchantReportingAPIDemo
 
-# Video
-https://yadi.sk/i/8Tma7FsMaUicag
-
 
 
 # STEP 1 #############################
