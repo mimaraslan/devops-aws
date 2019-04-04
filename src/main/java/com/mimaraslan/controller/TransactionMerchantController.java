@@ -24,7 +24,13 @@ import com.mimaraslan.repository.ResponseRepository;
 @RestController
 @RequestMapping("/api/v3")
 public class TransactionMerchantController {
-	 
+
+	// http://localhost:8080/api/v3/hello
+	@GetMapping("/hello")
+	public String greetingHello() {
+		return "Hello World";
+	}
+	
 //TRANSACTION​ ​REPORT
 	@Autowired
 	ReportRepository reportRepository;
