@@ -29,7 +29,7 @@ public class TransactionMerchantController {
 	@GetMapping("/hello")
 	public String greetingHello() {
 		return "Hello World";
-	}
+	}	
 	
 //TRANSACTION​ ​REPORT
 	@Autowired
