@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mimaraslan.model.Student;
 import com.mimaraslan.repository.DynamoDbRepository;
 
+
+// http://localhost:8085/dynamodb
 @RestController
 @RequestMapping("/dynamodb")
 public class DynamoDbController {

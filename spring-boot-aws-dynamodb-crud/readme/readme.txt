@@ -18,7 +18,7 @@ http://localhost:8085/dynamodb
 
 
 ###  GET
-http://localhost:8085/dynamodb?studentId=ID_NUMBER&lastName=LAST_NAME
+http://localhost:8085/dynamodb?studentId=ID_NUMBER
 
 
 ###  PUT
@@ -41,5 +41,5 @@ http://localhost:8085/dynamodb
 
 
 ###  DELETE
-http://localhost:8085/dynamodb?studentId=ID_NUMBER&lastName=LAST_NAME
+http://localhost:8085/dynamodb/ID_NUMBER
 
