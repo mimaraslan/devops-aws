@@ -22,7 +22,6 @@
 	</properties>
 
 	<dependencies>
-
 		<!-- for JSP -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
